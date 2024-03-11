@@ -1,0 +1,12 @@
+{
+  "name": "adv-chat-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npm install && npm install --prefix Client && npm run build --prefix Client"
+  },
+  "author": "",
+  "license": "ISC"
+}

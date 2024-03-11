@@ -1,0 +1,19 @@
+.app{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    padding: 0px;
+    background-image: url('./assets/background.png');
+    background-size: cover;
+    background-position: center;
+}
+
+/* Hide scrollbar for Firefox */
+* {
+    scrollbar-width: none;
+}
+
+/* Hide scrollbar for Webkit browsers */
+*::-webkit-scrollbar {
+    display: none;
+}
