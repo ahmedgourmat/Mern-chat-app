@@ -48,7 +48,6 @@ function OneToOneChat() {
 
 
         socket.on('message recieved',(newMessage)=>{
-            console.log('here a wald l hhh',selectedChat._id != newMessage.chat._id)
 
             if(selectedChat._id != newMessage.chat._id){
 
